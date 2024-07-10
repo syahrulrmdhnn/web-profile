@@ -1,0 +1,214 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #001927;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #00314D;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .navbar a{
+    margin-right: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav .navbar a:hover{
+    text-decoration: underline;
+}
+
+nav .logo{
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+nav .social i{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+nav .social i:hover{
+    transform: scale(1.2);
+}
+
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero .text{
+    color: white;
+    width: 500px;
+    height: 450px;
+    margin-top: 50px;
+}
+
+#hero .text h1{
+    font-size: 70px;
+}
+
+#hero .text h3{
+    font-size: 30px;
+}
+
+#hero .image{
+    background-color: #00a2ff11;
+    border: #0500FF solid;
+    border-radius: 25px;
+    width: 380px;
+    height: 450px;
+    margin-top: 100px;
+}
+
+#hero .image img{
+    position: relative;
+    height: 500px;
+    margin-left: 3px;
+    border-radius: 20px;
+    top: -50px;
+}
+
+#skil-heading{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.myskil{
+    display: flex;
+}
+
+.skil-text{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    opacity: 0;
+}
+
+.skil{
+    border-radius: 25px;
+    margin-right: 20px;
+    height: 250px;
+    width: 400px;
+    background-color: #00a2ff11;
+}
+
+.skil1{
+    border: #00A3FF solid;
+    background-image: url("https://assets.bitdegree.org/online-learning-platforms/storage/media/2018/08/what-is-a-web-developer.jpg");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skil1:hover .skil-text{
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.skil1:hover{
+    content: 'dksjdskjdsk';
+    box-shadow: 0px 0px 10px 0px #00A3FF;
+    transition: 0.3s ease;
+    background-color: #00000094;
+    backdrop-filter: blur(50px);
+    background-blend-mode: overlay;
+}
+
+.skil2{
+    border: #2b0b83 solid;
+    background-image: url("https://www.jotform.com/blog/wp-content/uploads/2020/07/How-to-Become-a-Web-Designer-Your-Go-to-Guide-to-Kick-start-Your-Career-03-2.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skil2:hover .skil-text{
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.skil2:hover{
+    box-shadow: 0px 0px 10px 0px #2b0b83;
+    transition: 0.3s ease;
+    background-color: #00000094;
+    backdrop-filter: blur(50px);
+    background-blend-mode: overlay;
+}
+
+.skil3{
+    border: #0500FF solid;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4jUQtkNxoLfVJK_Yjys0ZAzxozLryriPlXQ&s");
+    background-size: 480px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skil3:hover .skil-text{
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.skil3:hover{
+    box-shadow: 0px 0px 10px 0px #0500FF;
+    transition: 0.3s ease;
+    background-color: #00000094;
+    backdrop-filter: blur(50px);
+    background-blend-mode: overlay;
+}
+
+#contact{
+    color: #FFFFFF;
+    text-align: center;
+    border: #0500FF solid;
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 400px;
+    background-color: #00a2ff11;
+}
+
+#contact h1{
+    margin-top: 80px;
+    font-size: 70px;
+}
+
+#contact p{
+    font-size: 19px;
+}
+
+#contact button{
+    border: none;
+    color: #FFFFFF;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #0500FF, #020072);
+}
+
+#contact:hover{
+    box-shadow: 0px 0px 10px 0px #0500FF;
+    transition: 0.3s ease;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    background-color: #00314D;
+}
